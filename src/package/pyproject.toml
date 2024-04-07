@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "calibration"
+version = "1.0.0"
+requires-python = ">=3.10"
+authors = [
+  {name = "Sergey Zinchenko", email = "szinchenko009@gmail.com"},
+]
+description = "Package with tools for decoding calibration document."
+
+[tool.hatch.build]
+include = ["calibration/*"]
